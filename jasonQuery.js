@@ -1,9 +1,9 @@
-vas jasonQuery= function(args){
+var jasonQuery= function(args){
     if (typeof args === "string"){
         return {
             click: function(handler){
-                console.log(click click);
-            };
+                console.log("click click");
+            }
         };
     }
 
